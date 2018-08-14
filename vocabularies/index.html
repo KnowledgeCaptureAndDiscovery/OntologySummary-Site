@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>vocab.linkeddata.es</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This describes a catalog of vocabularies authored or contributed to by the members of the OEG.">
+    <meta name="languaje" content="English">
+    <meta name="author" content="Maria Poveda Villalon">
+    <meta name="author" content="Daniel Garijo">
+    
+    <link rel="stylesheet" href="vocab/themes/blue/style.css" type="text/css" media="print, projection, screen" />
+    <script src="vocab/js/jquery-1.11.0.js"></script>
+    <script type="text/javascript" src="vocab/js/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="vocab/js/jquery.stickytableheaders.js"></script>
+    <script type="text/javascript" src="vocab/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="vocab/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="vocab/css/jquery-ui.css"></link>
+    <script type="text/javascript" id="js">
+	    $(document).ready(function() 
+		    { 
+		    	$("#tablesorter-demo").tablesorter(); 
+		    	$("#tablesorter-demo").stickyTableHeaders(); 
+		    	$('[data-toggle="tooltip"]').tooltip(); 
+		    } 
+	    ); 
+    </script>
+
+    <!-- Le styles -->
+    <link href="vocab/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="vocab/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+  </head>
+
+  <body>
+
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Vocabularies</a></li>
+        <li><a href="report.html">Vocabulary report</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+ </div>
+    <div class="container">
+
+      <!-- Jumbotron -->
+      <div class="jumbotron">
+        <h1>vocab.linkeddata.es</h1>
+        <p class="lead">Here you can find the list of vocabularies that the <a href="http://www.oeg-upm.net">Ontology Engineering Group (OEG)</a> is developing and publishing on the Web.</a></p>
+      </div>
+      <hr>
+<div class="row"> 
+<div class="ui-widget">
+<div class="col-md-3" > 
+<p class="text-right"><label for="tags">Filter by title or domain: </label></p>
+</div>
+<div class="col-md-8" > 
+<input class="form-control" id="tags" >
+<button id="remButt" class="label label-default" onclick="showRows();" style="font-size: 75%; font-weight: bold; line-height: 1; display: none;"><span class="submit glyphicon glyphicon-remove"></span>  Remove filter</button>
+</div>
+</div>
+</div>
+<br>
+<table id="tablesorter-demo" class="tablesorter table table-hover table-responsive">
+<thead>
+<tr>
+<th class="col-md-2">Ontology</th>
+<th class="col-md-2">Serialization</th>
+<th class="col-md-1">License</th>
+<th class="col-md-1">Language</th>
+<th class="col-md-2">Domain</th>
+<th class="col-md-4">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr id="tr1">
+<td><a href = "http://linked.earth/ontology" target="_blank">The Linked Earth Ontology</a> <a href = "ontologies/linked.earthontology.html" target="_blank"><span class="glyphicon glyphicon-info-sign" data-toggle="tooltip" data-placement="bottom" title="More information about this vocabulary"/></a></td>
+<td>
+<span class="label label-primary">rdf+xml</span>
+<span class="label label-primary">html</span>
+<span class="label label-primary">turtle</span>
+</td>
+<td><a href="http://purl.org/NET/rdflicense/cc-by2.0" target="_blank"> <span class="label label-success">CC-BY</span> </a></td>
+<td><a href="http://lexvo.org/id/iso639-3/eng" target="_blank"> <span class="label label-primary">en</span></a> </td>
+<td><span class="label label-primary">paleo-climatology</span>
+<span class="label label-primary"> LinkedEarth ontology</span>
+</td>
+<td>
+The Linked Earth Ontology aims to provide a common vocabulary for annotating paleoclimatology data</td>
+<input type="hidden" name="inp1" id="inp1" value="The Linked Earth Ontology--paleo-climatology-- LinkedEarth ontology--"/></tr><tr id="tr2">
+<td><a href = "http://linked.earth/ontology/core/1.2.0/" target="_blank">The LiPD Ontology</a> <a href = "ontologies/linked.earthontologycore1.2.0.html" target="_blank"><span class="glyphicon glyphicon-info-sign" data-toggle="tooltip" data-placement="bottom" title="More information about this vocabulary"/></a></td>
+<td>
+<span class="label label-primary">html</span>
+<span class="label label-primary">turtle</span>
+</td>
+<td><a href="http://purl.org/NET/rdflicense/cc-by2.0" target="_blank"> <span class="label label-success">CC-BY</span> </a></td>
+<td><a href="http://lexvo.org/id/iso639-3/eng" target="_blank"> <span class="label label-primary">en</span></a> </td>
+<td><span class="label label-primary">paleo-climatology</span>
+<span class="label label-primary"> LinkedEarth core vocabulary</span>
+</td>
+<td>
+The LiPD Ontology aims to provide a common vocabulary for annotating paleoclimatology data</td>
+<input type="hidden" name="inp2" id="inp2" value="The LiPD Ontology--paleo-climatology-- LinkedEarth core vocabulary--"/></tr><tr id="tr3">
+<td><a href = "https://w3id.org/disk/ontology/enigma_hypothesis" target="_blank">The ENIGMA Hypothesis Ontology</a> <a href = "ontologies/w3id.orgdiskontologyenigma_hypothesis.html" target="_blank"><span class="glyphicon glyphicon-info-sign" data-toggle="tooltip" data-placement="bottom" title="More information about this vocabulary"/></a></td>
+<td>
+<span class="label label-primary">html</span>
+<span class="label label-primary">turtle</span>
+</td>
+<td><span class="label label-default">Undefined</span></td>
+<td><a href="http://lexvo.org/id/iso639-3/eng" target="_blank"> <span class="label label-primary">en</span></a> </td>
+<td><span class="label label-primary">enigma neuro-imaging</span>
+<span class="label label-primary"> ENIGMA DISK ontology</span>
+</td>
+<td>
+An ontology for describing terms used in the DISK Hypothesis Reasoner for a neuroscience domain.</td>
+<input type="hidden" name="inp3" id="inp3" value="The ENIGMA Hypothesis Ontology--enigma neuro-imaging-- ENIGMA DISK ontology--"/></tr><tr id="tr4">
+<td><a href = "http://disk-project.org/ontology/disk" target="_blank">The DISK Ontology</a> <a href = "ontologies/disk-project.orgontologydisk.html" target="_blank"><span class="glyphicon glyphicon-info-sign" data-toggle="tooltip" data-placement="bottom" title="More information about this vocabulary"/></a></td>
+<td>
+<span class="label label-primary">html</span>
+<span class="label label-primary">turtle</span>
+</td>
+<td><a href="http://purl.org/NET/rdflicense/cc-by-nc-sa2.0" target="_blank"> <span class="label label-success">CC-BY-NC-SA</span> </a></td>
+<td><a href="http://lexvo.org/id/iso639-3/eng" target="_blank"> <span class="label label-primary">en</span></a> </td>
+<td><span class="label label-primary">e-Science</span>
+<span class="label label-primary"> DISK ontology</span>
+</td>
+<td>
+<p id="collapse4" data-toggle="collapse" >
+The DISK Ontology aims to represent the components in a Line of Inquiry (e.g., hypothesis, metaworkflows, workflows, etc.), ... <a class="more4">See more</a>
+</p>
+<script>
+$('#collapse4').click(function () {
+if($('a').hasClass('more4'))
+{
+$('#collapse4').html('The DISK Ontology aims to represent the components in a Line of Inquiry (e.g., hypothesis, metaworkflows, workflows, etc.), along with their relationships and main interactions. It also aims to represents hypothesis and their revisions. The ontology is aligned to the W3C PROV standard  <a class="less4">See less<a>'); 
+}
+else
+{      
+$('#collapse4').html('The DISK Ontology aims to represent the components in a Line of Inquiry (e.g., hypothesis, metaworkflows, workflows, etc.), ...  <a  class="more4">See more</a>'); 
+}
+}); 
+</script>
+</td>
+<input type="hidden" name="inp4" id="inp4" value="The DISK Ontology--e-Science-- DISK ontology--"/></tr><tr id="tr5">
+<td><a href = "https://w3id.org/mint/modelCatalog" target="_blank">The MINT Model Catalog Ontology</a> <a href = "ontologies/w3id.orgmintmodelCatalog.html" target="_blank"><span class="glyphicon glyphicon-info-sign" data-toggle="tooltip" data-placement="bottom" title="More information about this vocabulary"/></a></td>
+<td>
+<span class="label label-primary">html</span>
+<span class="label label-primary">turtle</span>
+</td>
+<td><a href="http://purl.org/NET/rdflicense/cc-by2.0" target="_blank"> <span class="label label-success">CC-BY</span> </a></td>
+<td><a href="http://lexvo.org/id/iso639-3/eng" target="_blank"> <span class="label label-primary">en</span></a> </td>
+<td><span class="label label-primary">model integration</span>
+<span class="label label-primary">MINT models-catalog ontology</span>
+</td>
+<td>
+An ontology for describing models and their linkages to variables.</td>
+<input type="hidden" name="inp5" id="inp5" value="The MINT Model Catalog Ontology--model integration--MINT models-catalog ontology--"/></tr><tr id="tr6">
+<td><a href = "https://w3id.org/mint/commons" target="_blank">The MINT Commons Ontology</a> <a href = "ontologies/w3id.orgmintcommons.html" target="_blank"><span class="glyphicon glyphicon-info-sign" data-toggle="tooltip" data-placement="bottom" title="More information about this vocabulary"/></a></td>
+<td>
+<span class="label label-primary">html</span>
+<span class="label label-primary">turtle</span>
+</td>
+<td><a href="http://purl.org/NET/rdflicense/cc-by2.0" target="_blank"> <span class="label label-success">CC-BY</span> </a></td>
+<td><a href="http://lexvo.org/id/iso639-3/eng" target="_blank"> <span class="label label-primary">en</span></a> </td>
+<td><span class="label label-primary">common vocabulary</span>
+<span class="label label-primary">MINT commons ontology</span>
+</td>
+<td>
+An ontology for describing the shared terms among all MINT ontologies</td>
+<input type="hidden" name="inp6" id="inp6" value="The MINT Commons Ontology--common vocabulary--MINT commons ontology--"/></tr><tr id="tr7">
+<td><a href = "http://ontosoft.org/software" target="_blank">The Ontosoft ontology</a> <a href = "ontologies/ontosoft.orgsoftware.html" target="_blank"><span class="glyphicon glyphicon-info-sign" data-toggle="tooltip" data-placement="bottom" title="More information about this vocabulary"/></a></td>
+<td>
+<span class="label label-primary">rdf+xml</span>
+<span class="label label-primary">html</span>
+</td>
+<td><a href="http://purl.org/NET/rdflicense/cc-by4.0" target="_blank"> <span class="label label-success">CC-BY</span> </a></td>
+<td><a href="http://lexvo.org/id/iso639-3/eng" target="_blank"> <span class="label label-primary">en</span></a> </td>
+<td><span class="label label-primary">e-Science</span>
+<span class="label label-primary">OntoSoft ontology</span>
+</td>
+<td>
+Ontosoft is an ontology to describe software.</td>
+<input type="hidden" name="inp7" id="inp7" value="The Ontosoft ontology--e-Science--OntoSoft ontology--"/></tr><tr id="tr8">
+<td><a href = "http://purl.org/net/wf-fd" target="_blank">The Workflow Fragment Description ontology</a> <a href = "ontologies/purl.orgnetwf-fd.html" target="_blank"><span class="glyphicon glyphicon-info-sign" data-toggle="tooltip" data-placement="bottom" title="More information about this vocabulary"/></a></td>
+<td>
+<span class="label label-primary">rdf+xml</span>
+<span class="label label-primary">html</span>
+</td>
+<td><a href="http://purl.org/NET/rdflicense/cc-by-nc-sa2.0" target="_blank"> <span class="label label-success">CC-BY-NC-SA</span> </a></td>
+<td><a href="http://lexvo.org/id/iso639-3/eng" target="_blank"> <span class="label label-primary">en</span></a> </td>
+<td><span class="label label-primary">e-Science</span>
+<span class="label label-primary">workflows</span>
+<span class="label label-primary">wf-fd ontology</span>
+</td>
+<td>
+P-Plan extension to represent workflow fragments and their relationships to workflow templates</td>
+<input type="hidden" name="inp8" id="inp8" value="The Workflow Fragment Description ontology--e-Science--workflows--wf-fd ontology--"/></tr><tr id="tr9">
+<td><a href = "http://purl.org/net/wf-invocation" target="_blank">The Workflow Invocation Ontology</a> <a href = "ontologies/purl.orgnetwf-invocation.html" target="_blank"><span class="glyphicon glyphicon-info-sign" data-toggle="tooltip" data-placement="bottom" title="More information about this vocabulary"/></a></td>
+<td>
+<span class="label label-primary">rdf+xml</span>
+<span class="label label-primary">html</span>
+</td>
+<td><a href="http://purl.org/NET/rdflicense/cc-by-nc-sa2.0" target="_blank"> <span class="label label-success">CC-BY-NC-SA</span> </a></td>
+<td><a href="http://lexvo.org/id/iso639-3/eng" target="_blank"> <span class="label label-primary">en</span></a> </td>
+<td><span class="label label-primary">e-Science</span>
+<span class="label label-primary">workflows</span>
+<span class="label label-primary">wf-invoc ontology</span>
+</td>
+<td>
+Wf-invoc is a simple profile of the P-plan ontology to describe how workflow steps are invoked within a workflow execution.</td>
+<input type="hidden" name="inp9" id="inp9" value="The Workflow Invocation Ontology--e-Science--workflows--wf-invoc ontology--"/></tr><tr id="tr10">
+<td><a href = "http://purl.org/net/wf-motifs" target="_blank">The Workflow Motif Ontology</a> <a href = "ontologies/purl.orgnetwf-motifs.html" target="_blank"><span class="glyphicon glyphicon-info-sign" data-toggle="tooltip" data-placement="bottom" title="More information about this vocabulary"/></a></td>
+<td>
+<span class="label label-primary">rdf+xml</span>
+<span class="label label-primary">html</span>
+</td>
+<td><a href="http://purl.org/NET/rdflicense/cc-by-nc-sa2.0" target="_blank"> <span class="label label-success">CC-BY-NC-SA</span> </a></td>
+<td><a href="http://lexvo.org/id/iso639-3/eng" target="_blank"> <span class="label label-primary">en</span></a> </td>
+<td><span class="label label-primary">e-Science</span>
+<span class="label label-primary">workflows</span>
+<span class="label label-primary">wf-motifs</span>
+</td>
+<td>
+<p id="collapse10" data-toggle="collapse" >
+ Ontology for describing Workflow Motifs. Workflow Motifs outline the kinds of data-intensive activities that are observed ... <a class="more10">See more</a>
+</p>
+<script>
+$('#collapse10').click(function () {
+if($('a').hasClass('more10'))
+{
+$('#collapse10').html(' Ontology for describing Workflow Motifs. Workflow Motifs outline the kinds of data-intensive activities that are observed in workflows (data-operation motifs) and the different manners in which activities are implemented within workflows (workflow-oriented motifs).  <a class="less10">See less<a>'); 
+}
+else
+{      
+$('#collapse10').html(' Ontology for describing Workflow Motifs. Workflow Motifs outline the kinds of data-intensive activities that are observed ...  <a  class="more10">See more</a>'); 
+}
+}); 
+</script>
+</td>
+<input type="hidden" name="inp10" id="inp10" value="The Workflow Motif Ontology--e-Science--workflows--wf-motifs--"/></tr><tr id="tr11">
+<td><a href = "http://purl.org/net/p-plan" target="_blank">The P-Plan ontology</a> <a href = "ontologies/purl.orgnetp-plan.html" target="_blank"><span class="glyphicon glyphicon-info-sign" data-toggle="tooltip" data-placement="bottom" title="More information about this vocabulary"/></a></td>
+<td>
+<span class="label label-primary">rdf+xml</span>
+<span class="label label-primary">html</span>
+</td>
+<td><a href="http://purl.org/NET/rdflicense/cc-by-nc-sa2.0" target="_blank"> <span class="label label-success">CC-BY-NC-SA</span> </a></td>
+<td><a href="http://lexvo.org/id/iso639-3/eng" target="_blank"> <span class="label label-primary">en</span></a> </td>
+<td><span class="label label-primary">e-Science</span>
+<span class="label label-primary">workflows</span>
+<span class="label label-primary">p-plan ontology</span>
+</td>
+<td>
+PROV extension for linking Plans and parts of plans to their respective executions.</td>
+<input type="hidden" name="inp11" id="inp11" value="The P-Plan ontology--e-Science--workflows--p-plan ontology--"/></tr><tr id="tr12">
+<td><a href = "http://www.opmw.org/model/OPMW/" target="_blank">The OPMW ontology</a> <a href = "ontologies/www.opmw.orgmodelOPMW.html" target="_blank"><span class="glyphicon glyphicon-info-sign" data-toggle="tooltip" data-placement="bottom" title="More information about this vocabulary"/></a></td>
+<td>
+<span class="label label-primary">rdf+xml</span>
+<span class="label label-primary">html</span>
+</td>
+<td><a href="http://purl.org/NET/rdflicense/cc-by-nc-sa2.0" target="_blank"> <span class="label label-success">CC-BY-NC-SA</span> </a></td>
+<td><a href="http://lexvo.org/id/iso639-3/eng" target="_blank"> <span class="label label-primary">en</span></a> </td>
+<td><span class="label label-primary">e-Science</span>
+<span class="label label-primary">workflows</span>
+<span class="label label-primary">ompw ontology</span>
+</td>
+<td>
+OPMW is an OPMV, PROV and P-plan extension to model the executions and definitions of scientific workflows.</td>
+<input type="hidden" name="inp12" id="inp12" value="The OPMW ontology--e-Science--workflows--ompw ontology--"/></tr></tbody></table>
+<hr>
+      <footer class="footer">
+            <div class="row">
+    	<div class="col-md-8">
+    		Developed by 	        <a href = "http://oeg-upm.net" target="_blank">Ontology Engineering Group</a>
+	        <br>
+    	Built with <a target="_blank" href="http://getbootstrap.com/">Bootstrap</a>
+    	Icons from <a target="_blank" href="http://glyphicons.com/">Glyphicons</a>
+ 	        <br>
+	        Latest revision August, 2018
+           <br><p>&copy; Ontology Engineering Group</p>
+        </div>
+        <div class="col-md-2">	        <a href="http://vocab.linkeddata.es"><img src="vocab/vocabLogo.png" width="140px"></a>        </div>        <div class="col-md-2">
+    		<a href="http://www.oeg-upm.net/" target="_blank"><img src="vocab/logo.gif" alt="OEG logo" class="img-rounded" class="img-responsive" /></a>
+    	</div>
+      </div>
+      </footer>
+    </div> <!-- /container -->
+<script>
+$(function() {
+var availableTags = [
+"The Linked Earth Ontology"
+, "paleo-climatology", " LinkedEarth ontology", "The LiPD Ontology", " LinkedEarth core vocabulary", "The ENIGMA Hypothesis Ontology", "enigma neuro-imaging", " ENIGMA DISK ontology", "The DISK Ontology", "e-Science", " DISK ontology", "The MINT Model Catalog Ontology", "model integration", "MINT models-catalog ontology", "The MINT Commons Ontology", "common vocabulary", "MINT commons ontology", "The Ontosoft ontology", "OntoSoft ontology", "The Workflow Fragment Description ontology", "workflows", "wf-fd ontology", "The Workflow Invocation Ontology", "wf-invoc ontology", "The Workflow Motif Ontology", "wf-motifs", "The P-Plan ontology", "p-plan ontology", "The OPMW ontology", "ompw ontology"];
+$( "#tags" ).autocomplete({
+source: availableTags,
+select: function(event, ui) {
+hideRows(ui.item.value);
+}
+});
+});
+</script>
+<script>
+function hideRows(text) {
+index = 1;
+tr = document.getElementById('tr'+index);
+while (tr!=null){
+valores = document.getElementById('inp'+index).value;
+if (valores.indexOf(text+'--')==-1){
+tr.style.display='none';
+}
+index++;
+tr = document.getElementById('tr'+index);
+}
+document.getElementById('remButt').style.display='';
+}
+
+function showRows() {	
+index = 1;
+tr = document.getElementById('tr'+index);
+while (tr!=null){
+tr.style.display='';
+index++;
+tr = document.getElementById('tr'+index);
+}
+butt = document.getElementById('remButt').style.display='none';
+}
+</script><script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-48904250-1', 'linkeddata.es');
+ga('send', 'pageview');
+</script>
+  </body>
+</html>

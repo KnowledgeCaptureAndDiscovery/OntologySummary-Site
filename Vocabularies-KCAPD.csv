@@ -1,0 +1,27 @@
+VocabURI;domain,
+http://linked.earth/ontology;paleo-climatology, LinkedEarth ontology
+http://linked.earth/ontology/core/1.2.0/;paleo-climatology, LinkedEarth core vocabulary
+http://linked.earth/ontology/archive/1.0.0/; proxy archive vocabulary,paleo-climatology,LinkedEarth ontology 
+https://w3id.org/disk/ontology/enigma_hypothesis;enigma neuro-imaging, ENIGMA DISK ontology
+http://disk-project.org/ontology/omics;e-Science,DISK prote-omics ontology
+http://disk-project.org/ontology/hypothesis;e-Science, DISK hypothesis ontology
+http://disk-project.org/ontology/disk;e-Science, DISK ontology
+http://www.wings-workflows.org/ontology/component.owl;workflows, WINGS component ontology
+http://www.wings-workflows.org/ontology/execution.owl;workflows,WINGS execution ontology
+http://www.wings-workflows.org/ontology/workflow.owl;e-Science,WINGS workflow ontology
+https://w3id.org/mint/modelCatalog;model integration,MINT models-catalog ontology
+https://w3id.org/mint/commons;common vocabulary,MINT commons ontology
+https://w3id.org/enigma/cohort/;e-Science,neuro-imaging,ENIGMA cohort ontology
+https://w3id.org/enigma/core/;e-Science,neuro-imaging,ENIGMA core ontology
+https://w3id.org/enigma/organization/;e-Science,neuro-imaging,ENIGMA organization ontology
+https://w3id.org/enigma/person/;e-Science,neuro-imaging,ENIGMA person ontology
+https://w3id.org/enigma/project/;e-Science,neuro-imaging,ENIGMA project ontology
+https://w3id.org/enigma/roles/;e-Science,neuro-imaging,ENIGMA roles ontology
+https://w3id.org/enigma/scanner/;e-Science,neuro-imaging,ENIGMA scanner ontology
+http://ontosoft.org/software;e-Science,OntoSoft ontology
+http://ontosoft.org/softwareCategories;e-Science,OntoSoft categories ontology
+http://purl.org/net/wf-fd;e-Science,workflows,wf-fd ontology
+http://purl.org/net/wf-invocation;e-Science,workflows,wf-invoc ontology
+http://purl.org/net/wf-motifs;e-Science,workflows,wf-motifs
+http://purl.org/net/p-plan;e-Science,workflows,p-plan ontology
+http://www.opmw.org/model/OPMW/;e-Science,workflows,ompw ontology
