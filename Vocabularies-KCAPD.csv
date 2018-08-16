@@ -1,27 +1,31 @@
 VocabURI;domain,
-http://linked.earth/ontology;paleo-climatology, LinkedEarth ontology
-http://linked.earth/ontology/core/1.2.0/;paleo-climatology, LinkedEarth core vocabulary
-http://linked.earth/ontology/archive/1.0.0/; proxy archive vocabulary,paleo-climatology,LinkedEarth ontology 
-https://w3id.org/disk/ontology/enigma_hypothesis;enigma neuro-imaging, ENIGMA DISK ontology
-http://disk-project.org/ontology/omics;e-Science,DISK prote-omics ontology
-http://disk-project.org/ontology/hypothesis;e-Science, DISK hypothesis ontology
-http://disk-project.org/ontology/disk;e-Science, DISK ontology
-http://www.wings-workflows.org/ontology/component.owl;workflows, WINGS component ontology
-http://www.wings-workflows.org/ontology/execution.owl;workflows,WINGS execution ontology
-http://www.wings-workflows.org/ontology/workflow.owl;e-Science,WINGS workflow ontology
-https://w3id.org/mint/modelCatalog;model integration,MINT models-catalog ontology
-https://w3id.org/mint/commons;common vocabulary,MINT commons ontology
-https://w3id.org/enigma/cohort/;e-Science,neuro-imaging,ENIGMA cohort ontology
-https://w3id.org/enigma/core/;e-Science,neuro-imaging,ENIGMA core ontology
-https://w3id.org/enigma/organization/;e-Science,neuro-imaging,ENIGMA organization ontology
-https://w3id.org/enigma/person/;e-Science,neuro-imaging,ENIGMA person ontology
-https://w3id.org/enigma/project/;e-Science,neuro-imaging,ENIGMA project ontology
-https://w3id.org/enigma/roles/;e-Science,neuro-imaging,ENIGMA roles ontology
-https://w3id.org/enigma/scanner/;e-Science,neuro-imaging,ENIGMA scanner ontology
-http://ontosoft.org/software;e-Science,OntoSoft ontology
-http://ontosoft.org/softwareCategories;e-Science,OntoSoft categories ontology
-http://purl.org/net/wf-fd;e-Science,workflows,wf-fd ontology
-http://purl.org/net/wf-invocation;e-Science,workflows,wf-invoc ontology
-http://purl.org/net/wf-motifs;e-Science,workflows,wf-motifs
-http://purl.org/net/p-plan;e-Science,workflows,p-plan ontology
-http://www.opmw.org/model/OPMW/;e-Science,workflows,ompw ontology
+http://linked.earth/ontology;paleo-climatology, LinkedEarth ontology,LinkedEarth
+http://linked.earth/ontology/core/1.2.0;paleo-climatology, LinkedEarth core ontology, lipd, LinkedEarth
+http://linked.earth/ontology/archive/1.0.0;paleo-climatology,proxy archive, proxy archive ontology, LinkedEarth
+http://linked.earth/ontology/observation/1.0.0;paleo-climatology,proxy observation,proxy data, proxy observation ontology,LinkedEarth
+http://linked.earth/ontology/sensor/1.0.0;paleo-climatology,proxy sensor,sensor,LinkedEarth
+http://linked.earth/ontology/instrument/1.0.0;paleo-climatology,instrument ontology,paleo-climatology tools,LinkedEarth
+http://linked.earth/ontology/inferredVariable/1.0.0;paleo-climatology, inferred variable ontology,inferred variables,LinkedEarth
+https://w3id.org/disk/ontology/enigma_hypothesis;enigma,neuro-imaging, ENIGMA hypothesis ontology,DISK hypothesis,automated discovery
+http://disk-project.org/ontology/omics;DISK prote-omics ontology,proteomics,genomics,DISK hypothesis,automated discovery
+http://disk-project.org/ontology/hypothesis;DISK hypothesis ontology,automated discovery,DISK hypothesis
+http://disk-project.org/ontology/disk;e-Science,DISK ontology,automated discovery,DISK
+http://www.wings-workflows.org/ontology/component.owl;workflows, WINGS component ontology,wings component,workflow component
+http://www.wings-workflows.org/ontology/execution.owl;workflows,WINGS execution ontology,workflow execution,WINGS 
+http://www.wings-workflows.org/ontology/workflow.owl;WINGS workflow ontology,workflows,WINGS
+https://w3id.org/mint/modelCatalog;model integration,MINT models-catalog ontology,models,model catalog,MINT
+https://w3id.org/mint/commons;common vocabulary,MINT commons ontology,model integration,models,MINT
+https://w3id.org/enigma/cohort/;neuro-imaging,ENIGMA,cohort ontology,cohort
+https://w3id.org/enigma/core/;neuro-imaging,ENIGMA,ENIGMA core ontology,enigma ontology
+https://w3id.org/enigma/organization/1.0.0;neuro-imaging,ENIGMA,organization ontology,organization
+https://w3id.org/enigma/person/;neuro-imaging,ENIGMA,person ontology,person
+https://w3id.org/enigma/project/;neuro-imaging,ENIGMA,project ontology
+https://w3id.org/enigma/roles/;neuro-imaging,ENIGMA,ENIGMA roles ontology,roles
+https://w3id.org/enigma/scanner/;neuro-imaging,ENIGMA,scanner ontology,neuro-imaging scanner
+http://ontosoft.org/software;OntoSoft,software ontology,software
+http://ontosoft.org/softwareCategories;software categories ontology,software categories,OntoSoft
+http://purl.org/net/wf-fd;workflows,workflow fragment execution,wf-fd ontology,p-plan extension
+http://purl.org/net/wf-invocation;workflows,wf-invoc ontology,workflow invocation,p-plan
+http://purl.org/net/wf-motifs;workflows,wf-motifs,workflow motifs,workflow motif catalog
+http://purl.org/net/p-plan;workflows,p-plan ontology,provenance and plans,p-plan ontology,e-Science
+http://www.opmw.org/model/OPMW/;workflows,ompw ontology,open provenance model,prov,p-plan
